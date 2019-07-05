@@ -1,0 +1,120 @@
+/*
+Theme Name: Sedrehena Brewery
+Theme URI: http://sedrehanabrewery.com
+Author: Tim IT Sedrehana Brewery
+Description: Tema untuk web sederhana brewery
+*/
+
+.navbar-color {
+    background-color: #845933; 
+}
+
+.nav-link {
+    color: white;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.slide-top {
+    padding: 30px 0;
+}
+
+.title-post {
+    color: #845933;
+}
+
+.time {
+    color: #696969;
+    font-size: 13px;
+    margin-top: -7px;
+    margin-bottom: 2px;
+}
+
+.link-baca {
+    color: #845933;
+}
+
+.link-baca:hover {
+    color: #845933;
+    text-decoration: none;
+}
+
+.btn-lihatsemua {
+    color: #845933;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+hr {
+    border: 0.5px solid #845933;
+}
+
+.title-category {
+    color: white;
+    background-color: #845933;
+    padding-bottom: 5px;
+}
+
+.post {
+    text-align: justify;
+    font-size: 14px;
+    float: right;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    border-bottom: 0.5px solid #845933;
+}
+
+.post-front-page {
+    text-align: justify;
+    font-size: 12px;
+    float: right;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    border-bottom: 0.5px solid #845933;
+}
+
+.post p {
+    margin-bottom: 0;
+}
+
+.title-content {
+    padding-top: 30px;
+}
+
+.attachment-small_thumb {
+    padding: 4px 20px 0px 0px;
+    float: left;
+    width: 180px;
+    height: 120px;
+}
+
+.attachment-big_thumb {
+    padding: 4px 20px 0px 0px;
+    float: left;
+    width: 250px;
+    height: 160px;
+}
+
+.wp-block-image img {
+    margin-top: 18px;
+}
+
+@media (max-width: 988px) {
+    .attachment-small_thumb {
+        width: 150px;
+        height: 100px;
+    }
+
+    .post {
+        padding-bottom: 7px;
+    }
+}
